@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CD4021B Buttons Duo"
-Date "2018-05-14"
-Rev "1.1.0"
+Date "2018-05-16"
+Rev "1.2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1409,7 +1409,7 @@ Text Label 4400 6550 0    60   ~ 0
 MOSI
 Text Label 5400 6550 2    60   ~ 0
 MISO
-Text Label 4400 6650 0    60   ~ 0
+Text Label 5400 6650 2    60   ~ 0
 CSI
 Text Label 5400 6450 2    60   ~ 0
 CSO
@@ -1423,9 +1423,6 @@ Wire Wire Line
 	5400 6550 5150 6550
 Wire Wire Line
 	4650 6550 4400 6550
-Wire Wire Line
-	4400 6650 4650 6650
-NoConn ~ 5150 6650
 $Comp
 L PWR_FLAG #FLG037
 U 1 1 5AF38001
@@ -1476,14 +1473,12 @@ Entry Wire Line
 	5400 6550 5500 6450
 Entry Wire Line
 	4300 6450 4400 6550
-Entry Wire Line
-	4300 6550 4400 6650
 $Comp
 L PWR_FLAG #FLG039
 U 1 1 5AF3E113
 P 5150 6750
 F 0 "#FLG039" H 5150 6825 50  0001 C CNN
-F 1 "PWR_FLAG" H 5150 6900 50  0000 C CNN
+F 1 "PWR_FLAG" V 5500 6750 50  0000 C CNN
 F 2 "" H 5150 6750 50  0001 C CNN
 F 3 "" H 5150 6750 50  0001 C CNN
 	1    5150 6750
@@ -1703,4 +1698,25 @@ Connection ~ 8950 2400
 Connection ~ 9050 2400
 Wire Wire Line
 	4200 5800 4200 4600
+Wire Wire Line
+	5150 6650 5400 6650
+Entry Wire Line
+	5400 6650 5500 6550
+$Comp
+L +12V #PWR043
+U 1 1 5AFCB244
+P 4500 6750
+F 0 "#PWR043" H 4500 6600 50  0001 C CNN
+F 1 "+12V" H 4500 6890 50  0000 C CNN
+F 2 "" H 4500 6750 50  0001 C CNN
+F 3 "" H 4500 6750 50  0001 C CNN
+	1    4500 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6750 4600 6750
+Wire Wire Line
+	4600 6750 4600 6650
+Wire Wire Line
+	4600 6650 4650 6650
 $EndSCHEMATC
