@@ -1722,13 +1722,13 @@ Wire Wire Line
 $Comp
 L Screw_Terminal_01x02 J18
 U 1 1 5AFF0B02
-P 6200 6400
-F 0 "J18" H 6200 6500 50  0000 C CNN
-F 1 "3.5" H 6200 6200 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 6200 6400 50  0001 C CNN
-F 3 "" H 6200 6400 50  0001 C CNN
-	1    6200 6400
-	1    0    0    -1  
+P 6200 6500
+F 0 "J18" H 6200 6600 50  0000 C CNN
+F 1 "3.5" H 6200 6300 50  0000 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 6200 6500 50  0001 C CNN
+F 3 "" H 6200 6500 50  0001 C CNN
+	1    6200 6500
+	1    0    0    1   
 $EndComp
 $Comp
 L +12V #PWR044
