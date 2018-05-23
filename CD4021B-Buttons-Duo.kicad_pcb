@@ -2538,7 +2538,7 @@
   )
 
   (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5AFCAC7E)
-    (at 170.434 125.222 180)
+    (at 169.61 120.994 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -2831,7 +2831,7 @@
   )
 
   (module Symbols:KiCad-Logo2_6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5B04AB91)
-    (at 181.61 124.968 180)
+    (at 181.61 120.994 180)
     (descr "KiCad Logo")
     (tags "Logo KiCad")
     (attr virtual)
