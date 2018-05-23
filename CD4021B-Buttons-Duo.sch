@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 1
 Title "CD4021B Buttons Duo"
 Date "2018-05-16"
-Rev "1.2.0"
+Rev "1.3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1719,4 +1719,37 @@ Wire Wire Line
 	4600 6750 4600 6650
 Wire Wire Line
 	4600 6650 4650 6650
+$Comp
+L Screw_Terminal_01x02 J18
+U 1 1 5AFF0B02
+P 6200 6400
+F 0 "J18" H 6200 6500 50  0000 C CNN
+F 1 "3.5" H 6200 6200 50  0000 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 6200 6400 50  0001 C CNN
+F 3 "" H 6200 6400 50  0001 C CNN
+	1    6200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR044
+U 1 1 5AFF0F5B
+P 6000 6400
+F 0 "#PWR044" H 6000 6250 50  0001 C CNN
+F 1 "+12V" H 6000 6540 50  0000 C CNN
+F 2 "" H 6000 6400 50  0001 C CNN
+F 3 "" H 6000 6400 50  0001 C CNN
+	1    6000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 5AFF0FC7
+P 6000 6500
+F 0 "#PWR045" H 6000 6250 50  0001 C CNN
+F 1 "GND" H 6000 6350 50  0000 C CNN
+F 2 "" H 6000 6500 50  0001 C CNN
+F 3 "" H 6000 6500 50  0001 C CNN
+	1    6000 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
