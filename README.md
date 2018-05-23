@@ -29,6 +29,9 @@ so too bad for those who just want a working board :<
 
 ## Notes
 
+- First and foremost, I am still very new to PCB layout and routing, so feel
+  free to open an issue to give suggestions on my design and/or point out any
+  mistakes I made.
 - The JST connectors are rotated 180 degrees (so pin 1 is on the **right**
   side) due to a mistake I made at the very early stage of designing and the
   quickest way of fixing it is to rotate the connector.
