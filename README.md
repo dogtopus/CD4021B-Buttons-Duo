@@ -8,8 +8,9 @@
   - 8 channels for regular (NC and/or NO, depends on the software) buttons
   - 8 channels for illuminated (lamp equipped) buttons
 - Programmable lamps
-- Button connectors are somewhat compatible with [CY-822B][1] encoder (shares
-  the same electrical interface)
+- Button interface are somewhat compatible with [CY-822B][1] encoder (shares
+  the same electrical interface) with a better (not hard-wired to VBUS) lamp
+  support.
 - Separated lamp power rail (Supports 0-12V PSU, 500mA max for each channel)
 - Supports both 3.3V and 5V logic
 - Supports controlling via SPI bus and bitbang with Arduino ShiftIn/ShiftOut
