@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4021
+D 8 Stage Static Shift Register (SISO/PISO)
+K Shift,Register,8-bit,SISO,PISO
+$ENDCMP
+#
+$CMP CD4021BM
+D 8 Stage Static Shift Register (SISO/PISO) (SOIC-16)
+K Shift,Register,8-bit,SISO,PISO
+F http://www.ti.com/lit/ds/symlink/cd4021b.pdf
+$ENDCMP
+#
+$CMP IRF5806
+D Transistor P-MOSFET with substrate diode (IRF5806)
+K Transistor,PMOS,MOSFET,IRF5806
+F http://www.irf.com/product-info/datasheets/data/irf5806.pdf
+$ENDCMP
+#
+$CMP Q_PMOS_DDGSDD
+D Transistor P-MOSFET with substrate diode (general, SOT23-6)
+K Transistor,PMOS,MOSFET
+$ENDCMP
+#
+$CMP TPIC6C595
+D Power Logic 8-Bit Shift Register
+K Shift,Register,8-bit,Power,Open,Drain
+F http://www.ti.com/lit/ds/symlink/tpic6c595.pdf
+$ENDCMP
+#
+#End Doc Library
