@@ -43,9 +43,10 @@ so too bad for those who just want a working board :<
   (and potentially dangerous if the lamps are powered with voltage higher or
   lower than VCC since this wiring basically shorts the lamp power to the button
   pin when the switch on the button is closed)
-- The P-channel MOSFET can be swapped for cheaper alternative (e.g. CJL3415 **if
-  you only want 5V lamps**) as long as they have the same electrical interface
-  and the parameters (Vds, Ids, Rds) are reasonable.
+- The P-channel MOSFET can be swapped for cheaper alternative (e.g. CJL3415) as
+  long as they have the same electrical interface, 
+  the parameters (Vds, Vgs, Ids, Rds) are reasonable and proper zener diodes
+  (D1-D7) are chosen so that the gate of the MOSFET are not overdriven.
   Also, TPIC6C596 can be used in place of TPIC6C595. (Tested)
 
 [1]: https://cy-822b.blogspot.com/2016/08/the-cy-822b-usb-led-joystick-controller.html
