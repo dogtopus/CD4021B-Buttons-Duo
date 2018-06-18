@@ -46,7 +46,9 @@ so too bad for those who just want a working board :<
 - The P-channel MOSFET can be swapped for cheaper alternative (e.g. CJL3415) as
   long as they have the same electrical interface, 
   the parameters (Vds, Vgs, Ids, Rds) are reasonable and proper zener diodes
-  (D1-D7) are chosen so that the gate of the MOSFET are not overdriven.
+  (D1-D8) and voltage divider (R1-R8, R9-R16) are chosen so that the gate of the
+  MOSFET are not overdriven. (In case of CJL3415, a good choice would be 10k for
+  R9-R16, 20k for R1-R8, and zeners with zener voltage of 7.5V)
   Also, TPIC6C596 can be used in place of TPIC6C595. (Tested)
 
 [1]: https://cy-822b.blogspot.com/2016/08/the-cy-822b-usb-led-joystick-controller.html
