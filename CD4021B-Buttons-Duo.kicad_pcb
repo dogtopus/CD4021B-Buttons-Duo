@@ -4036,7 +4036,7 @@
   (gr_text B15 (at 166.878 89.662) (layer F.SilkS) (tstamp 5AF51DD9)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "VCC\nCSO\nMISO\nCSI\nGND" (at 127.254 104.394) (layer B.SilkS) (tstamp 5AF49380)
+  (gr_text "VCC\nCSL\nMISO\nCSB\nGND" (at 127.254 104.394) (layer B.SilkS) (tstamp 5AF49380)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
   )
   (gr_text "VL\nSCK  \nMOSI\nVL\nGND" (at 120.396 104.394) (layer B.SilkS)
