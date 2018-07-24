@@ -12,7 +12,8 @@
   the same electrical interface) with a better (not hard-wired to VBUS) lamp
   support.
 - Separated lamp power rail (Supports 0-12V PSU, 500mA max for each channel)
-- Supports both 3.3V and 5V logic
+- Supports 5V logic (may not work well under 3.3V, logic level shifter may be
+  required)
 - Supports controlling via SPI bus and bitbang with Arduino ShiftIn/ShiftOut
   code
 
