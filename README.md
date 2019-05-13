@@ -2,6 +2,8 @@
 
 16 channel arcade button driver
 
+(Legacy project, no longer in development)
+
 ## Features
 
 - 16 channels
